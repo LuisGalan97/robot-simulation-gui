@@ -42,5 +42,9 @@ $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
 Que permite evaluar la distancia de dos robots de tal forma que si esta es inferior al radio de los mismos, implicará una colision y por tanto el robot deberá detenerse.
 
+Por ultimo, el formulario de consulta de la cantidad de robots posee diversas validaciónes, por lo que si el usuario intenta ingresar valores invalidos, sera informado debidamente y no dara lugar a mayores errores.
+
+![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.gif)
+
 
 
