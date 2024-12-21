@@ -16,12 +16,12 @@ El movimiento de los robots se da por iteracciones accionadas por la rueda del m
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/2.gif)
 
 
-Esto es posible permitiendo que la distancia sea representada por un radio que tome valores de 0 a 200 pixeles, y la direccion representada como un angulo que puede tome valores de 0 a 360°, para lo cual las coordenadas objetivos son determinadas por el producto del radio por el cos y sin del angulo respectivamente:
+Las cuales se determinan estableciendo la distancia sea representada como radio que toma valores de 0 a 200 pixeles, y la direccion como un angulo que toma valores de 0 a 360°, permitiendo que las coordenadas objetivos sean determinadas por el producto del radio con el cos y sin del angulo respectivamente:
 
 - $coord\_x = r \cdot \cos(\theta)$
 - $coord\_y = r \cdot \sin(\theta)$
 
-A su vez ayudandose de la ecuacion de la linea recta, para permitir el movimiento del robot punto por punto, desde su posicion inicial a su posicion destino:
+A su vez se establece  la ecuacion de la linea recta, para permitir el movimiento del robot punto por punto, desde su posicion inicial a su posicion destino:
 
 - $$y = mx + b$$
 
