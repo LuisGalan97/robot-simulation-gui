@@ -3,6 +3,7 @@ Este proyecto construido en RAD Studio C++ Builder, presenta un GUI de simulacio
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/1.gif)
 
+## Funcionamiento
 El programa inicialmente consulta la cantidad de robots a simular, lo que permite ingresar un valor entre 1 a 50 robots para posteriormente pulsar el boton comenzar. 
 
 ![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/1.png)
@@ -35,6 +36,7 @@ $$b = y_2 - m \cdot x_2$$
 Con lo anterior, si en su desplazamiento hacia la posicion destino, el robot se encuentra con otro robot, este se detendra para evitar la colision y cambiara su color a rojo.
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/3.gif)
+![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/3.png)
 
 Lo cual se consigue mediante la ecuacion de la distancia euclidiana:
 
@@ -45,6 +47,9 @@ Que permite evaluar la distancia de dos robots de tal forma que si esta es infer
 Por ultimo, el formulario de consulta de la cantidad de robots posee diversas validaciónes, por lo que si el usuario intenta ingresar valores invalidos, sera informado debidamente y no dara lugar a mayores errores.
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.gif)
+![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.png)
+
+## Estructura del proyecto
 
 
 
