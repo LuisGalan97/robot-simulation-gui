@@ -3,14 +3,14 @@
 #ifndef RobotH
 #define RobotH
 
-#include "Semilla.h"
+#include "Seed.h"
 #include "Coord.h"
 #include "Utils.h"
 #include "math.h"
 //---------------------------------------------------------------------------
 class Robot{
 	private:
-        Semilla s;
+        Seed s;
 		Coord coord;
 		String id;
 		int size;

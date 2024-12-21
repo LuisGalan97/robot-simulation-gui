@@ -1,16 +1,16 @@
 //---------------------------------------------------------------------------
 
-#ifndef SemillaH
-#define SemillaH
+#ifndef SeedH
+#define SeedH
 
 #include <random>
 //---------------------------------------------------------------------------
-class Semilla{
+class Seed{
 	private:
 		std::mt19937 generator;
 
 	public:
-        Semilla();
+        Seed();
     	int random(int max);
 };
 #endif
