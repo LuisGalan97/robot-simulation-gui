@@ -12,14 +12,14 @@ class Field{
 		int n;
 		Robot** robot;
 		std::atomic<bool> active;
+		void initRobots(int size, int rmax, TForm* form);
+		void genPosRobots();
+		void showRobots();
 		Coord baseX(Coord curPos, Coord tarPos, double m, int b);
 		Coord baseY(Coord curPos, Coord tarPos, double m, int b);
 
 	public:
 		Field(int n, int size, int rmax, TForm* form);
-		void initRobots(int size, int rmax, TForm* form);
-		void genPosRobots();
-		void showRobots();
 		void moveRobots();
 		void setActive(bool active);
 		bool getActive();

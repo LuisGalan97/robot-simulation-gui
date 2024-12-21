@@ -6,27 +6,6 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 
-Coord Field::baseX(Coord curPos, Coord tarPos, double m, int b){
-	(curPos.x > tarPos.x) ? curPos.x-- : curPos.x++;
-	curPos.y = m*curPos.x + b;
-	return curPos;
-}
-
-Coord Field::baseY(Coord curPos, Coord tarPos, double m, int b){
-	(curPos.y > tarPos.y) ? curPos.y-- : curPos.y++;
-	curPos.x = (m < 10000) ? (curPos.y - b)/m : curPos.x;
-	return curPos;
-}
-
-Field::Field(int n, int size, int rmax, TForm* form){
-	this->n = n;
-	robot = new Robot*[n];
-	active = false;
-	initRobots(size, rmax, form);
-	genPosRobots();
-	showRobots();
-}
-
 void Field::initRobots(int size, int rmax, TForm* form){
 	for(int i = 0; i < n; i++){
 		robot[i] = new Robot((String)(i + 1), size, rmax, form);
@@ -51,6 +30,27 @@ void Field::showRobots(){
 	for(int i = 0; i < n; i++){
 		robot[i]->showRobot();
 	}
+}
+
+Coord Field::baseX(Coord curPos, Coord tarPos, double m, int b){
+	(curPos.x > tarPos.x) ? curPos.x-- : curPos.x++;
+	curPos.y = m*curPos.x + b;
+	return curPos;
+}
+
+Coord Field::baseY(Coord curPos, Coord tarPos, double m, int b){
+	(curPos.y > tarPos.y) ? curPos.y-- : curPos.y++;
+	curPos.x = (m < 10000) ? (curPos.y - b)/m : curPos.x;
+	return curPos;
+}
+
+Field::Field(int n, int size, int rmax, TForm* form){
+	this->n = n;
+	robot = new Robot*[n];
+	active = false;
+	initRobots(size, rmax, form);
+	genPosRobots();
+	showRobots();
 }
 
 void Field::moveRobots(){
