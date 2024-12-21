@@ -1,4 +1,4 @@
-# Proyecto simulacion de robots
+# GUI de simulacion de robots
 Este proyecto construido en RAD Studio C++ Builder, presenta un GUI de simulacion del movimiento y deteccion de colision de robots en un plano de dos dimensiones.
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/docs/docs/1.gif)
