@@ -40,7 +40,7 @@ Lo cual se consigue mediante la ecuacion de la distancia euclidiana:
 
 $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
-Que permite evaluanr la distancia de dos robots de tal forma que si esta es inferior al radio de los mismos, implicará una colision y por tanto el robot deberá detenerse.
+Que permite evaluar la distancia de dos robots de tal forma que si esta es inferior al radio de los mismos, implicará una colision y por tanto el robot deberá detenerse.
 
 
 
