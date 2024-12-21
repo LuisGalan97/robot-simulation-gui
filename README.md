@@ -3,18 +3,6 @@ Este proyecto construido en RAD Studio C++ Builder, presenta un GUI de simulacio
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/docs/docs/1.gif)
 
-## Estructura del proyecto
-El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente forma:
-- __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es directamente modificable.
-- __Robots.cpp | RobotsPCH1.h__ -> Modulo principal con la implementacion que inicializa el proyecto.
-- __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño, configuracion y comportamiento del GUI. 
-- __Field.h | Field.cpp__ -> Modulo con la declaracion e implementacion de la clase __Field__, diseñada para gestionar la simulacion de todos los robots en el GUI.
-- __Robot.h | Robot.cpp__ -> Modulo con la declaracion e implementacion de la clase __Robot__, cuyo proposito es definir el comportamiento de cada robot de forma individual.
-- __Utils.h | Utils.cpp__ -> Modulo con la declaracion e implementacion de la clase __Utils__, la cual habilita metodos estaticos que realizan la inicializacion y configuracion de elementos del GUI tales como Shape y Label, utilizados para la representacion visual de cada robot.
-- __Validations.h | Validations.cpp__ -> Modulo con la declaracion e implementacion de la clase __Validations__, en donde se dispone de un metodo estatico que permite validar el dato ingresado en el campo de entrada del GUI, asociado con el numero de robots que se desean simular.
-- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en diferentes lugares del codigo.
-- __ThreadF.h | ThreadF.cpp__ -> Modulo con la declaracion e implementacion de la clase __ThreadF__, la cual habilita la funcionalidad multihilo en el programa, ejecutando la logica de la simulacion en un hilo independiente, con el fin de permitir interacciones multiples con el GUI sin que sucedan bloqueos.
-
 ## Funcionamiento
 El programa inicialmente consulta la cantidad de robots a simular, lo que permite ingresar un valor entre 1 a 50 robots para posteriormente pulsar el boton comenzar. 
 
@@ -60,6 +48,18 @@ Por ultimo, el formulario de consulta de la cantidad de robots posee diversas va
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/docs/docs/4.gif)
 ![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/docs/docs/4.png)
+
+## Estructura del proyecto
+El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente forma:
+- __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es directamente modificable.
+- __Robots.cpp | RobotsPCH1.h__ -> Modulo principal con la implementacion que inicializa el proyecto.
+- __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño, configuracion y comportamiento del GUI. 
+- __Field.h | Field.cpp__ -> Modulo con la declaracion e implementacion de la clase __Field__, diseñada para gestionar la simulacion de todos los robots en el GUI.
+- __Robot.h | Robot.cpp__ -> Modulo con la declaracion e implementacion de la clase __Robot__, cuyo proposito es definir el comportamiento de cada robot de forma individual.
+- __Utils.h | Utils.cpp__ -> Modulo con la declaracion e implementacion de la clase __Utils__, la cual habilita metodos estaticos que realizan la inicializacion y configuracion de elementos del GUI tales como Shape y Label, utilizados para la representacion visual de cada robot.
+- __Validations.h | Validations.cpp__ -> Modulo con la declaracion e implementacion de la clase __Validations__, en donde se dispone de un metodo estatico que permite validar el dato ingresado en el campo de entrada del GUI, asociado con el numero de robots que se desean simular.
+- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en diferentes lugares del codigo.
+- __ThreadF.h | ThreadF.cpp__ -> Modulo con la declaracion e implementacion de la clase __ThreadF__, la cual habilita la funcionalidad multihilo en el programa, ejecutando la logica de la simulacion en un hilo independiente, con el fin de permitir interacciones multiples con el GUI sin que sucedan bloqueos.
 
 **Por:** <br />
 Ing. Luis Miguel Galán Salazar <br />
