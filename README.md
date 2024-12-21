@@ -3,7 +3,6 @@ Este proyecto construido en RAD Studio C++ Builder, presenta un GUI de simulacio
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/1.gif)
 
-## Funcionamiento
 El programa inicialmente consulta la cantidad de robots a simular, lo que permite ingresar un valor entre 1 a 50 robots para posteriormente pulsar el boton comenzar. 
 
 ![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/1.png)
@@ -48,8 +47,3 @@ Por ultimo, el formulario de consulta de la cantidad de robots posee diversas va
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.gif)
 ![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.png)
-
-## Estructura del proyecto
-
-
-
