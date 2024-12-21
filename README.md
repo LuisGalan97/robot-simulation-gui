@@ -51,7 +51,7 @@ Por ultimo, el formulario de consulta de la cantidad de robots posee diversas va
 
 ## Estructura del proyecto
 El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente forma:
-- __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es modificable a nivel de codigo.
+- __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es directamente modificable.
 - __Robots.cpp | RobotsPCH1.h__ -> Modulo principal con la implementacion que inicializa el proyecto.
 - __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño, configuracion y comportamiento del GUI. 
 - __Field.h | Field.cpp__ -> Modulo con la declaracion e implementacion de la clase __Field__, diseñada para gestionar la visualizacion, movimiento e interaccion de todos los robots sobre el GUI.
