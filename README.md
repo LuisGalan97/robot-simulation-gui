@@ -47,3 +47,7 @@ Por ultimo, el formulario de consulta de la cantidad de robots posee diversas va
 
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.gif)
 ![Imagen GUI](https://github.com/LuisGalan97/robots-project/blob/main/doc-assets/4.png)
+
+**Por:** <br />
+Ing. Luis Miguel Galán Salazar <br />
+**Ingeniero Mecatronico.**
