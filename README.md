@@ -17,8 +17,8 @@ El movimiento de los robots se da por iteracciones accionadas por la rueda del m
 
 Las cuales se establecen representando la distancia como un radio que toma valores de 0 a 200 pixeles, y la direccion como un angulo que toma valores de 0 a 360°, permitiendo que las coordenadas objetivos sean determinadas por el producto del radio con el cos y sin del angulo respectivamente:
 
-$coord\_x = r \cdot \cos(\theta)$
-$coord\_y = r \cdot \sin(\theta)$
+$$coord\_x = r \cdot \cos(\theta)$$
+$$coord\_y = r \cdot \sin(\theta)$$
 
 A su vez se establece  la ecuacion de la linea recta, para permitir el movimiento del robot punto por punto, desde su posicion inicial a su posicion destino:
 
