@@ -58,7 +58,7 @@ El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente for
 - __Robot.h | Robot.cpp__ -> Modulo con la declaracion e implementacion de la clase __Robot__, cuyo proposito es definir el comportamiento de cada robot de forma individual.
 - __Utils.h | Utils.cpp__ -> Modulo con la declaracion e implementacion de la clase __Utils__, la cual habilita metodos estaticos que realizan la inicializacion y configuracion de elementos del GUI tales como Shape y Label, utilizados para la representacion visual de cada robot.
 - __Validations.h | Validations.cpp__ -> Modulo con la declaracion e implementacion de la clase __Validations__, en donde se dispone de un metodo estatico que permite validar el dato ingresado en el campo de entrada del GUI, asociado con el numero de robots que se desean simular.
-- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en los diferentes lugares del codigo.
+- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en diferentes lugares del codigo.
 - __ThreadF.h | ThreadF.cpp__ -> Modulo con la declaracion e implementacion de la clase __ThreadF__, la cual habilita la funcionalidad multihilo en el programa, ejecutando la logica de la simulacion en un hilo independiente, con el fin de permitir interacciones multiples con el GUI sin que sucedan bloqueos.
 
 
