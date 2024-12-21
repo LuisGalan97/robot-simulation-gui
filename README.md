@@ -53,13 +53,13 @@ Por ultimo, el formulario de consulta de la cantidad de robots posee diversas va
 El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente forma:
 - __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es modificable a nivel de codigo.
 - __Robots.cpp | RobotsPCH1.h__ -> Modulo principal con la implementacion que inicializa el proyecto.
-- __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño y comportamiento del GUI en el proyecto. 
+- __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño, configuracion y comportamiento del GUI. 
 - __Field.h | Field.cpp__ -> Modulo con la declaracion e implementacion de la clase __Field__, diseñada para gestionar la visualizacion, movimiento e interaccion de todos los robots sobre el GUI.
-- __Robot.h | Robot.cpp__ -> Modulo con la declaracion e implementacion de la clase __Robot__, cuyo proposito es definir el comportamiento individual de cada robot.
+- __Robot.h | Robot.cpp__ -> Modulo con la declaracion e implementacion de la clase __Robot__, cuyo proposito es definir el comportamiento de cada robot de forma individual.
 - __Utils.h | Utils.cpp__ -> Modulo con la declaracion e implementacion de la clase __Utils__, la cual habilita metodos estaticos que realizan la inicializacion y configuracion de los elementos del GUI tales como Shape y Label.
 - __Validations.h | Validations.cpp__ -> Modulo con la declaracion e implementacion de la clase __Validations__, en donde se dispone de un metodo estatico que permite validar el dato ingresado en el campo de entrada del GUI, asociado con el numero de robots que se desean simular.
-- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en diferentes lugares del codigo.
-- __ThreadF.h | ThreadF.cpp__ -> Modulo con la declaracion e implementacion de la clase __ThreadF__, la cual habilita la funcionalidad multihilo en el programa, ejecutando la logica de la simulacion en un hilo independiente, con el fin de permitir multiples interacciones con el GUI.
+- __Seed.h | Seed.cpp__ ->  Modulo con la declaracion e implementacion de la clase __Seed__, diseñada para la generacion de valores pseudo-aleatorios en los diferentes lugares del codigo.
+- __ThreadF.h | ThreadF.cpp__ -> Modulo con la declaracion e implementacion de la clase __ThreadF__, la cual habilita la funcionalidad multihilo en el programa, ejecutando la logica de la simulacion en un hilo independiente, con el fin de permitir interacciones multiples con el GUI sin que sucedan bloqueos.
 
 
 **Por:** <br />
