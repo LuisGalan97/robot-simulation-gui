@@ -4,7 +4,7 @@ Este proyecto construido en RAD Studio C++ Builder, presenta un GUI de simulacio
 ![GIF Robots](https://github.com/LuisGalan97/robots-project/blob/docs/docs/1.gif)
 
 ## Estructura del proyecto
-El proyecto de nombre ___Robots___ se encuentra estructurado de la siguiente forma:
+El proyecto que recibe el nombre de ___Robots___ se encuentra estructurado de la siguiente forma:
 - __Robots.cbproj__ -> Archivo principal del proyecto de RAD Studio C++ Builder. no es directamente modificable.
 - __Robots.cpp | RobotsPCH1.h__ -> Modulo principal con la implementacion que inicializa el proyecto.
 - __Form.h | Form.dfm | Form.cpp__ -> Modulo con la declaracion, configuracion e implementacion de la clase __TForm1__, la cual define el diseño, configuracion y comportamiento del GUI. 
